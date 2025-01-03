@@ -1,0 +1,38 @@
+{
+  "name": "vue-project",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-check": "run-p type-check build",
+    "type-check": "vue-vine-tsc --noEmit --composite false",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "depcheck": "pnpx depcheck",
+    "format:icons": "node ./scripts/format-icons.js"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.12.0",
+    "@mdx-js/rollup": "^3.1.0",
+    "@mdx-js/vue": "^3.1.0",
+    "@tailwindcss/vite": "4.0.0-beta.8",
+    "@types/node": "^22.10.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "@vue-vine/eslint-config": "^0.2.12",
+    "eslint": "^9.17.0",
+    "tailwindcss": "4.0.0-beta.8",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.5",
+    "vue-vine": "^0.2.1",
+    "vue-vine-tsc": "^0.1.1"
+  }
+}

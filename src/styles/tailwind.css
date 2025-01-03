@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+@source "../../index.html";
+@source "../../src/**/*.{ts,tsx,vue,mdx}";
+/* @source "../../node_modules/@my-company/ui-lib"; */
