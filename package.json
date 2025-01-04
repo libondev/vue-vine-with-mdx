@@ -32,7 +32,7 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "~5.7.2",
     "vite": "^6.0.5",
-    "vue-vine": "^0.2.1",
+    "vue-vine": "^0.2.2",
     "vue-vine-tsc": "^0.1.1"
   }
 }
